@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--white-color);
+
+    color: var(--base-color);
+    font-family: var(--base-font);
+}
+
+h1{
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+    font-size: 4em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--base-color);
+}
+
+a:hover{
+    color: var(--burned-color);
+}
+
+ul{
+    list-style: none;
+}
